@@ -39,9 +39,9 @@ function setup(){
     log4 = new Log(760,120,150, PI/7);
     log5 = new Log(870,120,150, -PI/7);
 
-    bird = new Bird(100,100);
+    bird = new Bird(200,50);
 
-    chain = new Chain(bird.body,{x:200,y:100});
+    chain = new Chain(bird.body,{x:200,y:50});
   
 
 }
