@@ -3,7 +3,7 @@ class Chain {
         var options={
             bodyA:objA,
             pointB:ptB,
-            stiffness:0.1,
+            stiffness:0.04,
             length:10
         }
         this.sling1Img=loadImage("sprites/sling1.png");
@@ -42,4 +42,8 @@ class Chain {
         this.chain.bodyA = null;
         
     }
+    attach(vansh){
+        this.chain.bodyA  = vansh;
+    }
+    
 }
